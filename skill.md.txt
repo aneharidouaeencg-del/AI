@@ -1,0 +1,239 @@
+---
+name: academic-report-generator
+description: "Génère automatiquement un compte rendu académique complet à partir d'un sujet fourni. Étudiante : Douae Anehari (Apogée 22007689), ENCG Settat, S8, PSCM. Produit une page de garde avec photo, un script Python, analyse des résultats, visualisations, structure académique."
+allowed-tools: [Read, Write, Edit, Bash]
+---
+
+# Academic Report Generator - Supply Chain Data Science
+
+## Overview
+
+Ce skill génère automatiquement un compte rendu académique complet et structuré à partir d'un simple sujet fourni par l'utilisateur.
+
+**Étudiante :** Douae Anehari  
+**Apogée :** 22007689  
+**Établissement :** ENCG Settat  
+**Filière :** Purchasing and Supply Chain Management  
+**Semestre :** S8  
+**Enseignant :** M. Laghlimi  
+
+---
+
+## Données Personnelles de l'Étudiante
+
+```yaml
+student_info:
+  nom: "Anehari"
+  prenom: "Douae"
+  nom_complet: "Douae Anehari"
+  numéro_apogée: "22007689"
+  email: "dou3aeanehari@gmail.com"
+  
+  # PHOTO
+  photo_url: "https://i.ibb.co/RL78LkH/IMG-20251211-WA0001.jpg"
+  photo_alt: "Photo de Douae Anehari"
+  
+  # PARCOURS ACADÉMIQUE
+  etablissement: "ENCG Settat"
+  filiere: "Purchasing and Supply Chain Management"
+  semestre: "S8"
+  année_universitaire: "2025-2026"
+  
+  # ENCADREMENT
+  enseignant: "M. Laghlimi"
+  matiere: "Data Analytics & Machine Learning"
+
+
+
+When to Use This Skill
+Utilisez ce skill lorsque vous souhaitez :
+
+Générer un compte rendu académique complet à partir d'un sujet
+
+Produire automatiquement un script Python adapté au sujet choisi
+
+Obtenir une analyse structurée avec visualisations
+
+Créer un document prêt à être soumis à l'ENCG Settat
+
+
+Comment Utiliser Ce Skill
+Étape 1 : Vérifier les données
+Les données personnelles de Douae Anehari sont déjà intégrées.
+
+Étape 2 : Fournir le sujet
+Lancez le skill avec le sujet de votre choix :
+Sujet : [VOTRE SUJET]
+
+
+Exemples :
+
+Sujet : Prédiction des ruptures de stock dans une entreprise de distribution
+
+Sujet : Classification des fournisseurs selon leur niveau de risque
+
+
+Structure du Rapport Généré
+1. Page de Garde (Auto-remplie avec photo)
+La page de garde inclut automatiquement :
+
+Logo ENCG Settat
+
+Photo de Douae Anehari
+
+Établissement : ENCG Settat
+
+Filière : Purchasing and Supply Chain Management
+
+Semestre : S8
+
+Titre du rapport : Généré à partir du sujet
+
+Informations étudiant : Douae Anehari, 22007689
+
+Encadrement : M. Laghlimi
+
+2. Sommaire
+Généré automatiquement.
+
+3. Présentation du Sujet (Contextualisation)
+Contexte, problématique, objectifs, importance
+
+4. Contextualisation Académique
+ENCG Settat, S8, PSCM, M. Laghlimi, Douae Anehari
+
+5. Script Python
+Script complet adapté au sujet.
+
+6. Analyse des Résultats
+Métriques, matrice de confusion, importance des variables.
+
+7. Visualisations
+Trois graphiques commentés.
+
+8. Conclusion
+Synthèse et perspectives.
+
+
+Code HTML de la Page de Garde
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Rapport - [TITRE]</title>
+    <style>
+        @page { size: A4; margin: 2.5cm; }
+        body { font-family: 'Times New Roman', serif; margin: 0; padding: 0; background: white; }
+        .cover { text-align: center; padding: 40px 30px; height: 100vh; display: flex; flex-direction: column; justify-content: space-between; }
+        .logo { font-size: 24px; font-weight: bold; color: #1e3c72; border-bottom: 3px solid #ff6b35; display: inline-block; padding-bottom: 10px; }
+        .school-name { font-size: 28px; font-weight: bold; color: #1e3c72; margin: 20px 0 5px; }
+        .hero { display: flex; align-items: center; justify-content: center; gap: 50px; margin: 40px 0; }
+        .photo { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 4px solid #ff6b35; }
+        .report-title { font-size: 32px; font-weight: bold; color: #1e3c72; }
+        .info-box { background-color: #f8f9fa; border-left: 5px solid #ff6b35; padding: 20px; text-align: left; margin: 30px auto; max-width: 400px; }
+        .footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid #ddd; font-size: 12px; }
+        @media print { .cover { page-break-after: always; } }
+    </style>
+</head>
+<body>
+    <div class="cover">
+        <div>
+            <div class="logo">ENCG SETTAT</div>
+            <div class="school-name">École Nationale de Commerce et de Gestion</div>
+            <div class="school-sub">Université Hassan Premier - Settat</div>
+        </div>
+        <div class="hero">
+            <img src="https://i.ibb.co/RL78LkH/IMG-20251211-WA0001.jpg" alt="Photo Douae Anehari" class="photo">
+            <div class="title-section">
+                <div class="program">Purchasing and Supply Chain Management</div>
+                <div class="semester">Semestre S8</div>
+                <div class="report-title">[TITRE DU RAPPORT]</div>
+            </div>
+        </div>
+        <div class="info-box">
+            <p><strong>Réalisé par : Douae Anehari</strong></p>
+            <p>Numéro Apogée : 22007689</p>
+            <p>Email : dou3aeanehari@gmail.com</p>
+        </div>
+        <div>
+            <p><strong>Encadré par : M. Laghlimi</strong></p>
+            <p>Matière : Data Analytics & Machine Learning</p>
+            <div class="footer">Année universitaire : 2025-2026 | Date : Mars 2026</div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+Script Python Générique
+
+# ============================================
+# PROJET : [TITRE DU RAPPORT]
+# ÉTUDIANTE : Douae Anehari | APOGÉE : 22007689
+# ENSEIGNANT : M. Laghlimi
+# ============================================
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
+
+print("=" * 60)
+print("ANALYSE DATA SCIENCE - SUPPLY CHAIN")
+print(f"Étudiante : Douae Anehari (22007689)")
+print("=" * 60)
+
+# Chargement des données
+df = pd.read_csv('supply_chain_data.csv')
+print(f"Dataset : {df.shape[0]} lignes, {df.shape[1]} colonnes")
+
+# Exploration
+print("\nAperçu des données :")
+print(df.head())
+
+# Prétraitement
+df = df.dropna()
+print(f"\nAprès nettoyage : {df.shape[0]} lignes")
+
+# Modélisation
+X = df.select_dtypes(include=[np.number])
+y = (X.sum(axis=1) > X.median().sum()).astype(int)
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+model = RandomForestClassifier(n_estimators=100, random_state=42)
+model.fit(X_train, y_train)
+
+# Évaluation
+y_pred = model.predict(X_test)
+print("\nClassification Report :")
+print(classification_report(y_test, y_pred))
+print(f"Accuracy : {accuracy_score(y_test, y_pred):.4f}")
+
+# Visualisations
+plt.figure(figsize=(8,6))
+sns.countplot(x=y)
+plt.title('Distribution de la cible')
+plt.savefig('distribution.png')
+
+cm = confusion_matrix(y_test, y_pred)
+plt.figure(figsize=(8,6))
+sns.heatmap(cm, annot=True, fmt='d', cmap='Blues')
+plt.title('Matrice de confusion')
+plt.savefig('confusion_matrix.png')
+
+importances = model.feature_importances_
+indices = np.argsort(importances)[::-1][:10]
+plt.figure(figsize=(10,8))
+plt.barh(range(10), importances[indices])
+plt.yticks(range(10), X.columns[indices])
+plt.title('Importance des variables')
+plt.savefig('feature_importance.png')
+
+print("\nVisualisations générées avec succès !")
+
