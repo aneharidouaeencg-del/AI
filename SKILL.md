@@ -47,8 +47,7 @@ student_info:
   enseignant: "M. Laghlimi"
   matiere: "Data Analytics & Machine Learning"
 
-
-When to Use This Skill
+## When to Use This Skill
 
 Utilisez ce skill lorsque vous souhaitez :
 
@@ -57,8 +56,7 @@ Utilisez ce skill lorsque vous souhaitez :
 · ✅ Obtenir une analyse structurée avec visualisations
 · ✅ Créer un document prêt à être soumis à l'ENCG Settat
 · ✅ Gagner du temps sur la mise en forme académique
-
-Comment Utiliser Ce Skill
+## Comment Utiliser Ce Skill
 
 Étape 1 : Vérifier les données
 
@@ -82,8 +80,7 @@ Exemples :
 · Sujet : Prédiction des délais de livraison des fournisseurs
 
 ---
-
-Structure du Rapport Généré
+## Structure du Rapport Généré
 
 1. Page de Garde (Auto-remplie avec photo)
 
@@ -155,7 +152,7 @@ Trois visualisations générées et commentées :
 · Pistes d'amélioration
 · Perspectives pour travaux futurs
 
-Code HTML Complet de la Page de Garde
+## Code HTML Complet de la Page de Garde
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -318,7 +315,7 @@ Code HTML Complet de la Page de Garde
     </div>
 </body>
 
-Script Python Complet
+## Script Python Complet
 
 
 </html>
@@ -447,8 +444,7 @@ print("\n" + "=" * 60)
 print("ANALYSE TERMINÉE AVEC SUCCÈS")
 print("=" * 60)
 
-
-Instructions pour Générer un Rapport
+## Instructions pour Générer un Rapport
 
 1. Copiez ce fichier skill.md dans votre environnement
 2. Fournissez un sujet en répondant :
