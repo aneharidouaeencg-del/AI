@@ -99,7 +99,7 @@ Sujet : [VOTRE SUJET]
 
 ## Structure du Rapport Généré
 
-1. Page de Garde (Auto-remplie avec photo)
+# 1. Page de Garde (Auto-remplie avec photo)
 
 La page de garde inclut automatiquement :
 
@@ -121,11 +121,11 @@ La page de garde inclut automatiquement :
 
 · Date de soumission
 
-2. Sommaire
+# 2. Sommaire
 
 Généré automatiquement avec toutes les sections du rapport.
 
-3. Présentation du Sujet (Contextualisation)
+# 3. Présentation du Sujet (Contextualisation)
 
 · Contexte : Mise en situation du sujet dans la supply chain
 
@@ -135,7 +135,7 @@ Généré automatiquement avec toutes les sections du rapport.
 
 · Importance : Justification de l'approche data science
 
-4. Contextualisation Académique
+# 4. Contextualisation Académique
 
 Rappel du cadre académique :
 
@@ -153,7 +153,7 @@ Rappel du cadre académique :
 
 · Année universitaire : 2025-2026
 
-5. Script Python
+# 5. Script Python
 
 Script complet adapté au sujet avec :
 
@@ -167,7 +167,7 @@ Script complet adapté au sujet avec :
 
 · Évaluation et visualisations
 
-6. Analyse des Résultats
+# 6. Analyse des Résultats
 
 · Métriques de performance (accuracy, précision, rappel, F1-score)
 
@@ -179,7 +179,7 @@ Script complet adapté au sujet avec :
 
 · Limites identifiées
 
-7. Visualisations
+# 7. Visualisations
 
 Trois visualisations générées et commentées :
 
